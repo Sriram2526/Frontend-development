@@ -1,6 +1,6 @@
 # 🎓 Udemy Clone - Responsive Learning Platform UI
 
-A beautiful, fully responsive replica of Udemy's homepage built with **pure HTML5 and CSS3**. This project demonstrates professional web design skills using modern CSS layout techniques (Flexbox), semantic HTML, and responsive design principles.
+A beautiful, fully responsive replica of Udemy's homepage built with **pure HTML and CSS**. This project demonstrates professional web design skills using modern CSS layout techniques (Flexbox), semantic HTML, and responsive design principles.
 
 ## 📋 Table of Contents
 
