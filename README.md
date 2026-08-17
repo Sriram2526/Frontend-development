@@ -2,10 +2,6 @@
 
 A beautiful, fully responsive replica of Udemy's homepage built with **pure HTML5 and CSS3**. This project demonstrates professional web design skills using modern CSS layout techniques (Flexbox), semantic HTML, and responsive design principles.
 
-**Live Demo:** https://sriram2526.github.io/Frontend-Learning-Journey/
-**Repository:** https://github.com/Sriram2526/Frontend-Learning-Journey
----
-
 ## 📋 Table of Contents
 
 - [Overview](#overview)
