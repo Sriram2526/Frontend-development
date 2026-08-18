@@ -1,267 +1,480 @@
 <!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Udemy</title>
-    <!--Google style sheet for font-->
-    
+
+    <!-- Google style sheet for font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
-    <!--My style sheet-->
+
+    <!-- My style sheet -->
+
     <link rel="stylesheet" href="style.css">
-    <!--Font Awesome CDN Link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome CDN Link -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
 
     <!-- Navbar-->
+
     <div class="navbar">
 
         <div class="navbar__s1">
-            <h1 class="navbar__s1__title">Udemy</h1>
-            
 
+            <h1 class="navbar__s1__title">Udemy</h1>
 
         </div>
+
 
         <div class="navbar__s2">
-            <i class="fa-solid fa-magnifying-glass" style="color: rgb(17, 17, 17);"></i>
-            <input placeholder="Search For Anything Here. Tech, Business, Art..... ">
 
+            <i class="fa-solid fa-magnifying-glass"
+                style="color: rgb(17, 17, 17);"></i>
+
+            <input placeholder="Search For Anything Here. Tech, Business, Art..... ">
 
         </div>
 
+
         <div class="navbar__s3">
+
             <p>Course</p>
-            <!-- <p>My Learning</p> -->
+
+            <!-- My Learning -->
+
             <div class="mylearning">
+
                 <p>My Learning</p>
+
                 <div class="mylearning__popup">
+
                     <p>
                         You did not purchase anything yet
                     </p>
-                </div>
-            </div>
-            <i class="fa-solid fa-cart-shopping" style="color: rgb(17, 17, 17);"></i>
-            <i class="fa-solid fa-bell" style="color: rgb(17, 17, 17);"></i>
-            <i class="fa-solid fa-user" style="color: rgb(17, 17, 17);"></i>
 
+                </div>
+
+            </div>
+
+            <i class="fa-solid fa-cart-shopping"
+                style="color: rgb(17, 17, 17);"></i>
+
+            <i class="fa-solid fa-bell"
+                style="color: rgb(17, 17, 17);"></i>
+
+            <i class="fa-solid fa-user"
+                style="color: rgb(17, 17, 17);"></i>
 
         </div>
+
+
+        <!-- Menu icon - hidden on desktop -->
+
+        <div class="navbar__menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
     </div>
 
-    <!--Categories-->
+
+    <!-- Categories -->
+
     <div class="categories">
 
         <p>Development</p>
+
         <p>Business</p>
+
         <p>IT & Software</p>
+
         <p>Personal Development</p>
+
         <p>Design</p>
+
         <p>Marketing</p>
+
     </div>
 
-    <!--sale-image-->
+
+    <!-- Sale image -->
+
     <div class="sale-image">
+
         <img src="./images/sale image.png" alt="sale image">
+
         <div class="sale-image__offer">
-            <h2>Udemy Flash Sale! 24 Hours to Save </h2>
-            <p>Get the top course for just 999. Just one day to save but lifetime to Learn</p>
+
+            <h2>Udemy Flash Sale! 24 Hours to Save</h2>
+
+            <p>
+                Get the top course for just 999.
+                Just one day to save but lifetime to Learn
+            </p>
+
         </div>
 
     </div>
 
-    <!--Recommended-->
-    <div class="recommended">
-        <h1 class="recommended__title">Recommended for you</h1>
-        <p>Pick the best fit</p>
-        <div class="recommended__container">
-            <div class="course-card">
-                <img src="./images/c1.jpg">
-                <h3>Python Data Visualisation Masterclass 2026</h3>
-                <p>Col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p>449 <del>1999</del></p>
 
+    <!-- Recommended -->
+
+    <div class="recommended">
+
+        <h1 class="recommended__title">
+            Recommended for you
+        </h1>
+
+        <p>Pick the best fit</p>
+
+        <div class="recommended__container">
+
+
+            <div class="course-card">
+
+                <img src="./images/c1.jpg">
+
+                <h3>
+                    Python Data Visualisation Masterclass 2026
+                </h3>
+
+                <p>Col Steele</p>
+
+                <p>4.9 ⭐⭐⭐⭐</p>
+
+                <p>449 <del>1999</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c2.jpg">
-                <h3>Web Development Bootcamp with AI 2026 </h3>
+
+                <h3>
+                    Web Development Bootcamp with AI 2026
+                </h3>
+
                 <p>Ryan Mitchell</p>
+
                 <p>4.7 ⭐⭐⭐⭐</p>
+
                 <p>499 <del>1499</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c3.jpg">
-                <h3>Master UI/UX Designing with Figma 2026</h3>
+
+                <h3>
+                    Master UI/UX Designing with Figma 2026
+                </h3>
+
                 <p>Matthew Clark</p>
+
                 <p>3.7 ⭐⭐⭐</p>
+
                 <p>399 <del>2499</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c4.jpg">
-                <h3>Basic to Advanced Java Core Training 2026</h3>
+
+                <h3>
+                    Basic to Advanced Java Core Training 2026
+                </h3>
+
                 <p>Chris Wilson</p>
+
                 <p>5.0 ⭐⭐⭐⭐⭐</p>
+
                 <p>799 <del>2999</del></p>
 
             </div>
 
         </div>
+
     </div>
 
-    <!--Topics-->
+
+    <!-- Topics -->
+
     <div class="topics">
-        <h1 class="topics__recommended">Topics recommended for you </h1>
+
+        <h1 class="topics__recommended">
+            Topics recommended for you
+        </h1>
+
         <div class="topics__container">
+
             <p>website</p>
+
             <p>CSS</p>
+
             <P>Mongo DB</P>
+
             <P>AWS</P>
+
             <p>JavaScript</p>
+
             <p>Azure</p>
+
             <p>Docker</p>
+
             <p>GitHuB</p>
-            <P>React JS </P>
+
+            <P>React JS</P>
+
         </div>
+
     </div>
-    <!--Popular Section-->
+
+
+    <!-- Popular Section -->
+
     <div class="popular">
-        <h1 class="popular__title">Most Popular </h1>
-        <p class="popular__subtitle">Pick the best fit</p>
+
+        <h1 class="popular__title">
+            Most Popular
+        </h1>
+
+        <p class="popular__subtitle">
+            Pick the best fit
+        </p>
+
         <div class="popular__container">
 
-            <div class="course-card">
-                <img src="./images/c5.jpg">
-                <h3>Master Git & GitHub for Developers 2026</h3>
-                <p>Priya Nair</p>
-                <p>4.7 ⭐⭐⭐⭐</p>
-                <p>999 <del>5999</del></p>
 
+            <div class="course-card">
+
+                <img src="./images/c5.jpg">
+
+                <h3>
+                    Master Git & GitHub for Developers 2026
+                </h3>
+
+                <p>Priya Nair</p>
+
+                <p>4.7 ⭐⭐⭐⭐</p>
+
+                <p>999 <del>5999</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c6.jpg">
-                <h3>Master Software Testing: Manual to Automation 2026 </h3>
+
+                <h3>
+                    Master Software Testing: Manual to Automation 2026
+                </h3>
+
                 <p>Rohan Verma</p>
+
                 <p>3.6 ⭐⭐⭐</p>
+
                 <p>749 <del>1499</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c7.jpg">
-                <h3>Complete Cyber Security Fundamentals Course 2026</h3>
+
+                <h3>
+                    Complete Cyber Security Fundamentals Course 2026
+                </h3>
+
                 <p>Andrew Bennett</p>
+
                 <p>5.0 ⭐⭐⭐⭐⭐</p>
+
                 <p>1799 <del>4999</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c8.jpg">
-                <h3>Master Power BI for Data Analytics 2026</h3>
+
+                <h3>
+                    Master Power BI for Data Analytics 2026
+                </h3>
+
                 <p>Ethan Walker</p>
+
                 <p>4.3 ⭐⭐⭐⭐</p>
+
                 <p>299 <del>1499</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c9.jpg">
-                <h3>AI & Machine Learning: Build the Future 2026</h3>
+
+                <h3>
+                    AI & Machine Learning: Build the Future 2026
+                </h3>
+
                 <p>Rahul Sharma</p>
+
                 <p>2.9 ⭐⭐</p>
+
                 <p>899 <del>3499</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c10.jpg">
-                <h3>The Complete SQL & Database Masterclass 2026</h3>
+
+                <h3>
+                    The Complete SQL & Database Masterclass 2026
+                </h3>
+
                 <p>Jason Miller</p>
+
                 <p>3.5 ⭐⭐⭐</p>
+
                 <p>549 <del>2449</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c11.jpg">
-                <h3>Django & Python: Build Professional Web Applications 2026</h3>
+
+                <h3>
+                    Django & Python: Build Professional Web Applications 2026
+                </h3>
+
                 <p>Sanjay Krishnan</p>
+
                 <p>4.6 ⭐⭐⭐⭐</p>
+
                 <p>499 <del>4999</del></p>
 
             </div>
 
+
             <div class="course-card">
+
                 <img src="./images/c12.jpg">
-                <h3>Cyber Security: From Fundamentals to Practical Skills 2026</h3>
+
+                <h3>
+                    Cyber Security: From Fundamentals to Practical Skills 2026
+                </h3>
+
                 <p>Aditya Mehta</p>
-                <p>4.3⭐⭐⭐⭐</p>
+
+                <p>4.3 ⭐⭐⭐⭐</p>
+
                 <p>249 <del>999</del></p>
 
             </div>
 
 
-
-
-
-
-
-        </div>
-    </div>
-
-    <!--Footer-->
-<!-- Footer -->
-
-<div class="footer">
-
-    <div class="footer__one">
-
-        <div class="footer__one__s1">
-            <p>Udemy Business</p>
-            <p>Teach on Udemy</p>
-            <p>Get the App</p>
-            <p>About Us</p>
-            <p>Contact Us</p>
-        </div>
-
-        <div class="footer__one__s2">
-            <p>Careers</p>
-            <p>Blog</p>
-            <p>Help and Support</p>
-            <p>Affiliate</p>
-            <p>Investors</p>
-        </div>
-
-        <div class="footer__one__s3">
-            <p>Terms</p>
-            <p>Privacy Policy</p>
-            <p>Accessibility</p>
-            <p>Cookie Settings</p>
-            <p>Sitemap</p>
         </div>
 
     </div>
 
-    <div class="footer__two">
 
-        <h1>Udemy</h1>
+    <!-- Footer -->
 
-        <p>&copy; 2026 Udemy, Inc. All rights reserved.</p>
+    <div class="footer">
+
+        <div class="footer__one">
+
+            <div class="footer__one__s1">
+
+                <p>Udemy Business</p>
+
+                <p>Teach on Udemy</p>
+
+                <p>Get the App</p>
+
+                <p>About Us</p>
+
+                <p>Contact Us</p>
+
+            </div>
+
+
+            <div class="footer__one__s2">
+
+                <p>Careers</p>
+
+                <p>Blog</p>
+
+                <p>Help and Support</p>
+
+                <p>Affiliate</p>
+
+                <p>Investors</p>
+
+            </div>
+
+
+            <div class="footer__one__s3">
+
+                <p>Terms</p>
+
+                <p>Privacy Policy</p>
+
+                <p>Accessibility</p>
+
+                <p>Cookie Settings</p>
+
+                <p>Sitemap</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer__two">
+
+            <h1>Udemy</h1>
+
+            <p>
+                &copy; 2026 Udemy, Inc. All rights reserved.
+            </p>
+
+        </div>
 
     </div>
-
-</div>
 
 
 </body>
+
+</html>
