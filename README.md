@@ -123,4 +123,9 @@ A beautiful, fully responsive replica of Udemy's homepage built with **pure HTML
 
 ---
 
-## 📂 Project Structure
+<p align="center">
+🎓 Keep Learning. Keep Building. Keep Growing. 🚀
+
+Built with ❤️ using HTML5 & CSS3
+
+</p> ```
